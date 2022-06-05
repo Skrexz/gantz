@@ -7,7 +7,7 @@
 <%@ page import="java.security.MessageDigest" %>
 <%@ include file="../conexion/conexion.jsp" %>
 <% 
-//Inicializo una sesión 
+//Inicializo una sesión  para validar que solo los logueados puedan entrar
 HttpSession sesion=request.getSession();
 //Recibimos los parámetros que nos hayan enviado por post 
 int id_usuario=0; 
